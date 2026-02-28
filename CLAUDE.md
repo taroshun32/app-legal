@@ -34,9 +34,7 @@ app-legal/
 - 各詳細ページに `<a href="index.html" class="back-link">` で戻るリンク
 
 ### 連絡先
-- ベースアドレス: taroshun32.dev@gmail.com
-- 各アプリは +エイリアスで管理（例: taroshun32.dev+aeta@gmail.com）
-- 利用規約・プライバシーポリシーともに同一アドレスを使用
+- 全アプリ共通: taroshun32.dev@gmail.com
 
 ## アプリ別の要点
 
