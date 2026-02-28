@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #2d2d2d;
+  background-color: #fffbf7;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.back-link {
+  display: inline-block;
+  color: #8c8c8c;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.back-link:hover {
+  color: #e07a5f;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.last-updated {
+  font-size: 13px;
+  color: #8c8c8c;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0ebe5;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+ul, ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+a {
+  color: #e07a5f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact-email {
+  font-weight: 500;
+}
+
+/* index page */
+.index-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+}
+
+.index-container .app-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.index-container .app-description {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 48px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 320px;
+}
+
+.link-list li {
+  margin-bottom: 12px;
+}
+
+.link-list a {
+  display: block;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  color: #2d2d2d;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.link-list a:hover {
+  background-color: #f8f3ee;
+  text-decoration: none;
+}
