@@ -135,3 +135,37 @@ a:hover {
   background-color: #E5DACF;
   text-decoration: none;
 }
+
+/* support section */
+.support-section {
+  margin-top: 48px;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
+
+.support-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #C9BBA9;
+}
+
+.support-section p {
+  font-size: 14px;
+  color: #2C2318;
+  margin-bottom: 12px;
+}
+
+.support-email a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #785A38;
+}
+
+.support-note {
+  font-size: 13px;
+  color: #8C7E70;
+}
