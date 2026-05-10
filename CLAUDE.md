@@ -11,6 +11,11 @@ app-legal/
 │   ├── terms.html
 │   ├── privacy-policy.html
 │   └── style.css
+├── battery-nest/           ← BatteryNest（バッテリー残量で Nest が変化する Widget アプリ）
+│   ├── index.html
+│   ├── terms.html
+│   ├── privacy-policy.html
+│   └── style.css
 └── heyalog/                ← へやログ（部屋の間取りで持ち物管理）
     ├── index.html
     ├── terms.html
@@ -37,15 +42,15 @@ app-legal/
 
 各アプリの `style.css` で以下のカラーをアプリに合わせて設定する。
 
-| プロパティ | aeta | heyalog |
-|-----------|------|---------|
-| 背景色 (`body`) | `#fffbf7` | `#EFE6DB` |
-| テキスト色 | `#2d2d2d` | `#2C2318` |
-| サブテキスト色 | `#8c8c8c` | `#8C7E70` |
-| リンク色 / アクセント | `#e07a5f` | `#785A38` |
-| h2 下線 | `#f0ebe5` | `#C9BBA9` |
-| カード / リンクボタン背景 | `#fff` | `#FFFFFF` |
-| リンクボタン hover | `#f8f3ee` | `#E5DACF` |
+| プロパティ | aeta | battery-nest | heyalog |
+|-----------|------|--------------|---------|
+| 背景色 (`body`) | `#fffbf7` | `#ECECEF` | `#EFE6DB` |
+| テキスト色 | `#2d2d2d` | `#1C1C1E` | `#2C2318` |
+| サブテキスト色 | `#8c8c8c` | `#8E8E93` | `#8C7E70` |
+| リンク色 / アクセント | `#e07a5f` | `#1C1C1E` | `#785A38` |
+| h2 下線 | `#f0ebe5` | `#D1D1D6` | `#C9BBA9` |
+| カード / リンクボタン背景 | `#fff` | `#F7F7F9` | `#FFFFFF` |
+| リンクボタン hover | `#f8f3ee` | `#E5E5EA` | `#E5DACF` |
 
 ## 連絡先
 
@@ -66,6 +71,19 @@ app-legal/
 - Supabase（DB・認証）+ RevenueCat（課金管理）
 - 通知なし
 - 制定日: 2026年2月28日
+
+### BatteryNest（battery-nest）
+
+- 二層課金: 消費型チケット 4 パック（¥100/¥250/¥500/¥1,000）+ Pro サブスク（月額¥400/年額¥2,800）
+- Supabase（DB・認証・Edge Function）+ RevenueCat（課金管理）
+- バッテリー情報: 端末内処理のみ、サーバー送信なし（プライバシーポリシーで明示）
+- 期間限定 Nest（販売期間あり、再販保証なし、永久所有モデル）
+- 通知なし、広告なし、トラッキングなし
+- パスワードリセット機能 v1 未実装 → 利用規約に **赤字級警告** あり
+- 特商法表示を利用規約 第11条に統合
+- 改正個情法 第28条 越境移転（Supabase/RevenueCat 米国移転）開示済み
+- GDPR 最小開示（EU/EEA 圏向け）あり
+- 制定日: 2026年5月10日
 
 ## GitHub Pages
 

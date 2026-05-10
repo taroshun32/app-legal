@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #1C1C1E;
+  background-color: #ECECEF;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.back-link {
+  display: inline-block;
+  color: #8E8E93;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.back-link:hover {
+  color: #1C1C1E;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.last-updated {
+  font-size: 13px;
+  color: #8E8E93;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #D1D1D6;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+ul, ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+a {
+  color: #1C1C1E;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.contact-email {
+  font-weight: 500;
+}
+
+/* warning callout (パスワード忘失等の重要事項) */
+.warning {
+  background-color: #FFF8E1;
+  border-left: 3px solid #D2932B;
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.warning strong {
+  color: #1C1C1E;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.warning p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+/* index page */
+.index-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+}
+
+.index-container .app-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.index-container .app-description {
+  font-size: 14px;
+  color: #8E8E93;
+  margin-bottom: 48px;
+  max-width: 320px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 320px;
+}
+
+.link-list li {
+  margin-bottom: 12px;
+}
+
+.link-list a {
+  display: block;
+  padding: 16px;
+  background-color: #F7F7F9;
+  border-radius: 12px;
+  color: #1C1C1E;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.link-list a:hover {
+  background-color: #E5E5EA;
+  text-decoration: none;
+}
+
+/* support section */
+.support-section {
+  margin-top: 48px;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
+
+.support-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #D1D1D6;
+}
+
+.support-section p {
+  font-size: 14px;
+  color: #1C1C1E;
+  margin-bottom: 12px;
+}
+
+.support-email a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C1C1E;
+}
+
+.support-note {
+  font-size: 13px;
+  color: #8E8E93;
+}
